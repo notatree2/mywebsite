@@ -1,20 +1,15 @@
 body {
-    background-color:#1f808f;
+    background-color:lightslategrey;
+    text-align: center;
 
 }
 
 div.a {
+    margin-right:35%;
+    margin-left:35%;
+}
+
+.navbar {
     text-align: center;
-    margin-left: 35%;
-    margin-right: 35;
-}
-
-div.h11 {
-    color: blueviolet;
-
-}
-
-navbar {
-    text-align:center;
 
 }
