@@ -1,7 +1,8 @@
 body {
-    background-color:rgb(13, 33, 3);
+    background-color:rgba(4, 6, 38, 0.882);
     text-align: center;
-    color: rgba(0, 0, 255, 0.737);
+    font-family: 'Open Sans', sans-serif;
+
 
 
 }
@@ -21,5 +22,13 @@ div.a {
 .tho {
 
     color: blueviolet;
-} 
+    font-family: 'Raleway', sans-serif;
+}
+
+.tho2 {
+
+    color:deepskyblue;
+    font-family: 'Raleway', sans-serif;
+
+}
 
