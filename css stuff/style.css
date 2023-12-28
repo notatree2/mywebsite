@@ -1,15 +1,25 @@
 body {
-    background-color:lightslategrey;
+    background-color:rgb(13, 33, 3);
     text-align: center;
+    color: rgba(0, 0, 255, 0.737);
+
 
 }
 
 div.a {
     margin-right:35%;
     margin-left:35%;
+    color: black;
 }
 
 .navbar {
     text-align: center;
+    color:black;
 
 }
+
+.tho {
+
+    color: blueviolet;
+} 
+
