@@ -11,6 +11,7 @@ div.a {
     margin-right:35%;
     margin-left:35%;
     color: black;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar {
@@ -22,7 +23,7 @@ div.a {
 .tho {
 
     color: blueviolet;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .tho2 {
@@ -32,3 +33,21 @@ div.a {
 
 }
 
+div.b {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+div.c {
+    text-align: right;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.tho3 {
+    color:darkmagenta;
+
+}
