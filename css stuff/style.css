@@ -21,6 +21,7 @@ div.a {
     width:auto;
     height:70px;
     background:rgb(44, 37, 120);
+    font-size:200%;
 
 }
 
@@ -85,7 +86,7 @@ div.c {
 
 #animation1 {
 
-
+    opacity: 0;
     visibility: hidden;
     animation: MyAni1 2s ease;
     visibility: visible;
@@ -96,15 +97,16 @@ div.c {
 }
 
 @keyframes MyAni1 {
-    from{margin-left:50%}
-    to{margin-right:25%}
     0%{opacity:0}
     100%{opacity:1}
+    from{margin-left:50%}
+    to{margin-right:25%}
+
 }
 
 #animation2 {
 
-
+    opacity: 0;
 
     animation: MyAni2 2s ease;
     animation-delay: 1s;
