@@ -1,8 +1,11 @@
 
 body {
-    background-color:rgba(128, 17, 148, 0.882);
+    background-color:rgba(89, 20, 102, 0.882);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 
 
 
@@ -20,15 +23,15 @@ div.a {
     text-align: center;
     width:auto;
     height:70px;
-    background:rgb(44, 37, 120);
+    background:rgb(30, 25, 84);
     font-size:200%;
 
 }
 
 .navbar_border {
     border: 6px solid;
-    border-color:rgb(44, 37, 120);
-    border-bottom-color: rgba(28, 31, 159, 0.811);
+    border-color:rgb(30, 25, 84);
+    border-bottom-color: rgba(22, 24, 124, 0.811);
     height:60px;
 
     
@@ -75,11 +78,22 @@ div.c {
 }
 
 .hm{
-    border: 4px solid rgba(28, 31, 159, 0.811);
+    border: 4px solid rgba(22, 24, 124, 0.811);
     width:75%;
     display: inline-block;
     padding:60px;
-    background: rgba(28, 31, 159, 0.811);
+    background: rgba(22, 24, 124, 0.811);
+    z-index: 1
+
+}
+
+.hm2{
+    border: 4px solid rgba(22, 24, 124, 0.811);
+    width:75%;
+    display: inline-block;
+    padding:60px;
+    background: rgba(22, 24, 124, 0.811);
+    z-index: 1;
 
 }
 
