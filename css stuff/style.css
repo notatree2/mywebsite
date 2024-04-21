@@ -110,14 +110,19 @@ div.c {
     animation-delay: 3s;
     
     animation-fill-mode: forwards;
+    border: 3px solid;
+    display: inline-block;
+    border-radius:10px;
+    border-color:rgb(45, 45, 199);
+    background: rgb(34, 34, 150);
 
 }
 
 @keyframes MyAni1 {
     0%{opacity:0}
     100%{opacity:1}
-    from{margin-left:50%}
-    to{margin-right:25%}
+    from{margin-left:-20%}
+    to{margin-right:-30%}
 
 }
 
@@ -129,12 +134,17 @@ div.c {
     animation-delay: 1s;
     
     animation-fill-mode: forwards;
+    border: 3px solid;
+    display: inline-block;
+    border-radius:10px;
+    border-color:rgb(45, 45, 199);
+    background: rgb(34, 34, 150);
 
 }
 
 @keyframes MyAni2 {
-    from{margin-left:5%}
-    to{margin-right:25%}
+    from{margin-left:30%}
+    to{margin-right:50%}
     0%{opacity:0}
     100%{opacity:1}
 }
