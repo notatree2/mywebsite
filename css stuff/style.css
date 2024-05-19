@@ -1,6 +1,6 @@
 
 body {
-    background-color:rgba(89, 20, 102, 0.882);
+    background-color:rgba(34, 36, 185, 0.811);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     align-items: center;
@@ -19,25 +19,39 @@ div.a {
 }
 
 .navbar {
-    
+    z-index:100;
     text-align: center;
     width:auto;
     height:70px;
-    background:rgb(30, 25, 84);
+    background-color:rgba(24, 26, 134, 0.811);
     font-size:200%;
+    justify-items: stretch;
+    position: relative;
 
 }
 
 .navbar_border {
     border: 6px solid;
-    border-color:rgb(30, 25, 84);
-    border-bottom-color: rgba(22, 24, 124, 0.811);
+    position:relative;
+    border-color:rgba(24, 26, 134, 0.811);
     height:60px;
     
 
     
 
 }
+
+a:hover {
+    transition: 2s;
+    color: rgb(147, 88, 15);
+
+    
+}
+a:hover{
+    transition: 2s;
+    text-underline-offset: 8px;
+}
+
 
 
 .tho {
@@ -84,8 +98,9 @@ div.c {
     display: inline-block;
     padding:60px;
     background: rgba(22, 24, 124, 0.811);
-    z-index: 1;
+    z-index: 50;
     border-radius:10px;
+    justify-content: space-evenly;
 
 
 }
