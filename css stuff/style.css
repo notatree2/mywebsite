@@ -11,7 +11,15 @@ body {
 
 }
 
+.small {
+    color: rgb(153, 35, 35);
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 30%;
+}
+
 div.a {
+
     margin-right:35%;
     margin-left:35%;
     color: black;
@@ -158,8 +166,8 @@ div.c {
 }
 
 @keyframes MyAni2 {
-    from{margin-left:30%}
-    to{margin-right:50%}
+    from{margin-left:-20%}
+    to{margin-right:40%}
     0%{opacity:0}
     100%{opacity:1}
 }
