@@ -8,8 +8,4 @@ for(let a of allA) {
     a.style.color = "blue"
 }
 
-const allP = document.getElementsByTagName("p")
 
-allP.forEach(f => {
-    f.style.color = "blue"
-})
