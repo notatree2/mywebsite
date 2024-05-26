@@ -33,7 +33,8 @@ div.a {
     height:70px;
     background-color:rgba(24, 26, 134, 0.811);
     font-size:200%;
-    justify-items: stretch;
+    justify-content: space-evenly;
+    font-family: "Ubuntu", sans-serif;
     position: relative;
 
 }
