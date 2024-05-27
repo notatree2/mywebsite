@@ -35,13 +35,13 @@ div.a {
     font-size:200%;
     justify-content: space-evenly;
     font-family: "Ubuntu", sans-serif;
-    position: relative;
+    position: sticky;
 
 }
 
 .navbar_border {
     border: 6px solid;
-    position:relative;
+    position:sticky;
     border-color:rgba(24, 26, 134, 0.811);
     height:60px;
     
