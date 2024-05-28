@@ -10,6 +10,5 @@ for(let a of allA) {
 
 const NavBar = document.getElementsByClassName("navbar")
 
-const f = document.getElementById("f")
-
+const f = document.getElementById("fun")
 f.style.color = "#4470AD"
