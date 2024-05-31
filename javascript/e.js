@@ -8,8 +8,7 @@ for(let a of allA) {
     a.style.color = "#6888BE"
 }
 
-const NavBar = document.getElementsByClassName("navbar")
-NavBar.style.alignItems = "center"
+
 
 const f = document.getElementById("fun")
 f.style.color = "#4470AD"
