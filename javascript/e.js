@@ -12,3 +12,15 @@ const NavBar = document.getElementsByClassName("navbar")
 
 const f = document.getElementById("fun")
 f.style.color = "#4470AD"
+
+const easteregg = document.getElementById("secret")
+easteregg.style.fontSize = "8px"
+document.addEventListener("keydown", (event) => {
+    event.preventDefault()
+    if(event.key === "p") {
+        easteregg.textContent = "psst, hey, its me! you found an easter egg!"
+    }
+})
+document.addEventListener("keyup", (event) => {
+    easteregg.textContent = " "
+})
