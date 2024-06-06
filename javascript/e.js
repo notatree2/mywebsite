@@ -1,12 +1,12 @@
 
 console.log("yo welcome to the console how u been today, checking up on my website? pretty cool u can do that btw i aint stopping u lol")
 
-const allA = document.getElementsByTagName("li")
+// classlists, use later, check notes
+const links = document.querySelectorAll("#link")
 
 
-for(let a of allA) {
-    a.style.color = "#6888BE"
-}
+
+
 
 
 

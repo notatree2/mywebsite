@@ -33,13 +33,14 @@ div.a {
     height:70px;
     background-color:rgba(24, 26, 134, 0.811);
     font-size:200%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-family: "Ubuntu", sans-serif;
     position: sticky;
 
 }
 
 .navbar_border {
+    justify-content: space-around;
     border: 6px solid;
     position:sticky;
     border-color:rgba(24, 26, 134, 0.811);
@@ -124,6 +125,17 @@ div.c {
     
 }
 
+#link {
+    
+   
+    font-size: 2rem;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color:rgba(36, 39, 197, 0.811);
+
+}
 
 #animation1 {
 
@@ -141,6 +153,9 @@ div.c {
     background: rgb(34, 34, 150);
 
 }
+
+
+
 
 @keyframes MyAni1 {
     0%{opacity:0}
